@@ -6,6 +6,8 @@ let trust=0;
 let slider, slidervalue = 0;
 let starttoken;
 let globalr=10, globalg=10, globalb=10;
+let srad, drad, spacex, spacey,krad, lrad;
+let stoken = false, dtoken=false, spacetoken=false, ktoken=false, ltoken=false;
 
 function preload(){
   black = loadModel('assets/black.obj');
@@ -20,12 +22,14 @@ function preload(){
 }
 
 function setup() {
+  frameRate(61);
   createCanvas(windowWidth, windowHeight, WEBGL);
   headtoken = false;
   handtoken = false;
   starttoken = false;
   textFont(font);
-
+  srad=0; drad=0; krad=0; lrad=0;
+  spacex=0; spacey=0;
 
   let label = createDiv('brightness');
   label.id('tea');
@@ -39,17 +43,46 @@ function setup() {
   slider.style('width', '80px');
 }
 
-function startgame() {
-  if (starttoken == false && slidervalue == 50){
-      song.play();
-      starttoken = true;
-  }
-}
+
 
 
 function draw() {
   background(0);
   noStroke();
+
+
+    s();
+    d();
+    spaceellipse();
+    k();
+    l();
+
+
+
+for (let i=0; i<8; i+=2){
+  if (song.currentTime() >= 0.7+i && song.currentTime() <= 1.1+i) {
+    spacetoken = true;
+  }
+}
+for (let i=0; i<6; i+=1){
+  if (song.currentTime() >= 7.7+i && song.currentTime() <= 8.1+i) {
+    spacetoken = true;
+  }
+}
+
+if (song.currentTime() >= 12.7 && song.currentTime() <= 13.1) {
+  ktoken = true;
+}
+if (song.currentTime() >= 13 && song.currentTime() <= 13.4) {
+  dtoken = true;
+}
+
+
+  if (song.currentTime() >= 14.95 && song.currentTime() <= 15.11) {
+    stoken = true;
+  }
+
+
 
   globalr = map(slidervalue, 0,50,10,128);
   globalg = map(slidervalue, 0,50,10,128);
@@ -61,7 +94,7 @@ function draw() {
 
   textSize(16);
   fill(255);
-  text('kk\'s trust : '+trust, -windowWidth/2+10, -windowHeight/2+20);
+  text('kk\'s trust : '+ trust, -windowWidth/2+10, -windowHeight/2+20);
 
   //controller
   push();
@@ -69,13 +102,19 @@ function draw() {
   fill(100,100,100);
   rect(0,0, windowWidth, windowHeight/4);
   fill(255,0,0);
-  circle(50,windowHeight/8-35,50);
-  circle(125,windowHeight/8-10,50);
-  ellipse(250,windowHeight/8,150,50);
-  circle(375,windowHeight/8-10,50);
-  circle(450,windowHeight/8-35,50);
+  circle(50,windowHeight/8-35,61);
+  circle(130,windowHeight/8-10,61);
+  ellipse(255,windowHeight/8+10,183,61);
+  circle(380,windowHeight/8-10,61);
+  circle(455,windowHeight/8-35,61);
+  //s(srad);
+  fill(0,0,0,90);
+  let scircle=circle(50, windowHeight/8-35, srad);
+  let dcircle=circle(130,windowHeight/8-10,drad);
+  let space=ellipse(255,windowHeight/8+10,spacex, spacey);
+  let kcircle=circle(380,windowHeight/8-10,krad);
+  let lcircle=circle(455,windowHeight/8-35,lrad);
   pop();
-
 
 
 //control
