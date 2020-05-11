@@ -1,15 +1,3 @@
-/*push();
-translate(-windowWidth/2, windowHeight/4,0);
-fill(100,100,100);
-rect(0,0, windowWidth, windowHeight/4);
-fill(255,0,0);
-circle(50,windowHeight/8-35,50);
-circle(125,windowHeight/8-10,50);
-ellipse(250,windowHeight/8,150,50);
-circle(375,windowHeight/8-10,50);
-circle(450,windowHeight/8-35,50);
-pop();*/
-
 function startgame() {
   if (starttoken == false && slidervalue == 50){
       song.play();
@@ -18,48 +6,62 @@ function startgame() {
 }
 
 
-function s(){
-  if (stoken == true){
-    if(srad<60){
-        srad+=1;
+function d(){
+  if (dtoken == true){
+    if(drad<=60){
+        drad+=2;
     }
     else{
-      srad=0;
-      stoken = false;
+      drad=0;
+      dtoken = false;
     }
   }
 }
 
-function d(){
-  if (dtoken == true){
-  if(drad<60){
-      drad+=1;
+function f(){
+  if (ftoken == true){
+  if(frad<=60){
+      frad+=2;
   }
   else{
-    drad=0;
-    dtoken = false;
+    frad=0;
+    ftoken = false;
   }
 }
 }
 
 function spaceellipse(){
   if(spacetoken == true){
-  if(spacey<60){
-      spacey+=1;
+  if(spacey<=60){
+      spacey+=2;
       spacex=map(spacey, 0,61,0,183);
   }
   else{
-    spacey=0;
-    spacex=0;
-    spacetoken = false;
+    setTimeout(function(){
+      spacey=0;
+      spacex=0;
+      spacetoken = false;
+    }, 50);
   }
 }
 }
 
+function j(){
+  if(jtoken == true){
+    if(jrad<=60){
+        jrad+=2;
+    }
+    else{
+      jrad=0;
+      jtoken = false;
+    }
+  }
+}
+
 function k(){
-  if(ktoken == true){
-    if(krad<60){
-        krad+=1;
+  if (ktoken == true){
+    if(krad<=60){
+        krad+=2;
     }
     else{
       krad=0;
@@ -68,14 +70,22 @@ function k(){
   }
 }
 
-function l(){
-  if (ltoken == true){
-    if(lrad<60){
-        lrad+=1;
+function greatscore(){
+  if(trust == prevtrust && greattoken == true){
+          trust+=300;
+          setTimeout(function(){
+            prevtrust=trust;
+            greattoken = false;
+          }, 100);
+        }
+      }
+
+function goodscore(){
+  if(trust == prevtrust && trusttoken == true){
+      trust+=100;
+      setTimeout(function(){
+        prevtrust=trust;
+        trusttoken = false;
+      }, 600);
     }
-    else{
-      lrad=0;
-      ltoken = false;
-    }
-  }
 }
