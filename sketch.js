@@ -206,8 +206,6 @@ function draw() {
   }
 
 
-
-
   if (song.currentTime() >= 15.7 && song.currentTime() <= 15.8) {
     dtoken = true;
   }
@@ -435,30 +433,19 @@ function draw() {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-  if (song.currentTime() >= 17.67+1.96 && song.currentTime() <= 17.77+1.96) {
+  if (song.currentTime() >= 17.67 + 1.96 && song.currentTime() <= 17.77 + 1.96) {
     ktoken = true;
   }
   if (keyIsPressed == true && key == "k") {
-    if (song.currentTime() >= 18.17+1.96 && song.currentTime() <= 18.27+1.96) {
+    if (song.currentTime() >= 18.17 + 1.96 && song.currentTime() <= 18.27 + 1.96) {
       greatscore();
       greattoken = true;
       kcolor = great;
       setTimeout(function() {
         kcolor = normal;
       }, 500);
-    } else if ((song.currentTime() >= 17.97+1.96 && song.currentTime() < 18.17+1.96) ||
-      (song.currentTime() > 18.27+1.96 && song.currentTime() <= 18.47+1.96)) {
+    } else if ((song.currentTime() >= 17.97 + 1.96 && song.currentTime() < 18.17 + 1.96) ||
+      (song.currentTime() > 18.27 + 1.96 && song.currentTime() <= 18.47 + 1.96)) {
       goodscore();
       trusttoken = true;
       kcolor = good;
@@ -468,19 +455,19 @@ function draw() {
     }
   }
 
-  if (song.currentTime() >= 18.05+1.96 && song.currentTime() <= 18.15+1.96) {
+  if (song.currentTime() >= 18.05 + 1.96 && song.currentTime() <= 18.15 + 1.96) {
     jtoken = true;
   }
   if (keyIsPressed == true && key == "j") {
-    if (song.currentTime() >= 18.55+1.96 && song.currentTime() <= 18.65+1.96) {
+    if (song.currentTime() >= 18.55 + 1.96 && song.currentTime() <= 18.65 + 1.96) {
       greatscore();
       greattoken = true;
       jcolor = great;
       setTimeout(function() {
         jcolor = normal;
       }, 500);
-    } else if ((song.currentTime() >= 18.35+1.96 && song.currentTime() < 18.55+1.96) ||
-      (song.currentTime() > 18.65+1.96 && song.currentTime() <= 18.85+1.96)) {
+    } else if ((song.currentTime() >= 18.35 + 1.96 && song.currentTime() < 18.55 + 1.96) ||
+      (song.currentTime() > 18.65 + 1.96 && song.currentTime() <= 18.85 + 1.96)) {
       goodscore();
       trusttoken = true;
       jcolor = good;
@@ -491,19 +478,19 @@ function draw() {
   }
 
 
-  if (song.currentTime() >= 18.41+1.96 && song.currentTime() <= 18.51+1.96) {
+  if (song.currentTime() >= 18.41 + 1.96 && song.currentTime() <= 18.51 + 1.96) {
     ktoken = true;
   }
   if (keyIsPressed == true && key == "k") {
-    if (song.currentTime() >= 18.91+1.96 && song.currentTime() <= 19.01+1.96) {
+    if (song.currentTime() >= 18.91 + 1.96 && song.currentTime() <= 19.01 + 1.96) {
       greatscore();
       greattoken = true;
       kcolor = great;
       setTimeout(function() {
         kcolor = normal;
       }, 500);
-    } else if ((song.currentTime() >= 18.71+1.96 && song.currentTime() < 18.91+1.96) ||
-      (song.currentTime() > 19.01+1.96 && song.currentTime() <= 19.21+1.96)) {
+    } else if ((song.currentTime() >= 18.71 + 1.96 && song.currentTime() < 18.91 + 1.96) ||
+      (song.currentTime() > 19.01 + 1.96 && song.currentTime() <= 19.21 + 1.96)) {
       goodscore();
       trusttoken = true;
       kcolor = good;
@@ -513,19 +500,19 @@ function draw() {
     }
   }
 
-  if (song.currentTime() >= 18.76+1.96 && song.currentTime() <= 18.86+1.96) {
+  if (song.currentTime() >= 18.76 + 1.96 && song.currentTime() <= 18.86 + 1.96) {
     jtoken = true;
   }
   if (keyIsPressed == true && key == "j") {
-    if (song.currentTime() >= 19.26+1.96 && song.currentTime() <= 19.36+1.96) {
+    if (song.currentTime() >= 19.26 + 1.96 && song.currentTime() <= 19.36 + 1.96) {
       greatscore();
       greattoken = true;
       jcolor = great;
       setTimeout(function() {
         jcolor = normal;
       }, 500);
-    } else if ((song.currentTime() >= 19.06+1.96 && song.currentTime() < 19.26+1.96) ||
-      (song.currentTime() > 19.36+1.96 && song.currentTime() <= 19.56+1.96)) {
+    } else if ((song.currentTime() >= 19.06 + 1.96 && song.currentTime() < 19.26 + 1.96) ||
+      (song.currentTime() > 19.36 + 1.96 && song.currentTime() <= 19.56 + 1.96)) {
       goodscore();
       trusttoken = true;
       jcolor = good;
@@ -535,19 +522,19 @@ function draw() {
     }
   }
 
-  if (song.currentTime() >= 19.15+1.96 && song.currentTime() <= 19.25+1.96) {
+  if (song.currentTime() >= 19.15 + 1.96 && song.currentTime() <= 19.25 + 1.96) {
     ktoken = true;
   }
   if (keyIsPressed == true && key == "k") {
-    if (song.currentTime() >= 19.65+1.96 && song.currentTime() <= 19.75+1.96) {
+    if (song.currentTime() >= 19.65 + 1.96 && song.currentTime() <= 19.75 + 1.96) {
       greatscore();
       greattoken = true;
       kcolor = great;
       setTimeout(function() {
         kcolor = normal;
       }, 500);
-    } else if ((song.currentTime() >= 19.45+1.96 && song.currentTime() < 19.65+1.96) ||
-      (song.currentTime() > 19.75+1.96 && song.currentTime() <= 19.95+1.96)) {
+    } else if ((song.currentTime() >= 19.45 + 1.96 && song.currentTime() < 19.65 + 1.96) ||
+      (song.currentTime() > 19.75 + 1.96 && song.currentTime() <= 19.95 + 1.96)) {
       goodscore();
       trusttoken = true;
       kcolor = good;
@@ -559,86 +546,1904 @@ function draw() {
 
 
 
-    if (song.currentTime() >= 17.67+3.92 && song.currentTime() <= 17.77+3.92) {
-      ktoken = true;
+  if (song.currentTime() >= 17.67 + 3.92 && song.currentTime() <= 17.77 + 3.92) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 18.17 + 3.92 && song.currentTime() <= 18.27 + 3.92) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.97 + 3.92 && song.currentTime() < 18.17 + 3.92) ||
+      (song.currentTime() > 18.27 + 3.92 && song.currentTime() <= 18.47 + 3.92)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
     }
-    if (keyIsPressed == true && key == "k") {
-      if (song.currentTime() >= 18.17+3.92 && song.currentTime() <= 18.27+3.92) {
-        greatscore();
-        greattoken = true;
-        kcolor = great;
-        setTimeout(function() {
-          kcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 17.97+3.92 && song.currentTime() < 18.17+3.92) ||
-        (song.currentTime() > 18.27+3.92 && song.currentTime() <= 18.47+3.92)) {
-        goodscore();
-        trusttoken = true;
-        kcolor = good;
-        setTimeout(function() {
-          kcolor = normal;
-        }, 500);
-      }
-    }
+  }
 
-    if (song.currentTime() >= 18.05+3.92 && song.currentTime() <= 18.15+3.92) {
-      jtoken = true;
+  if (song.currentTime() >= 18.05 + 3.92 && song.currentTime() <= 18.15 + 3.92) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 18.55 + 3.92 && song.currentTime() <= 18.65 + 3.92) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.35 + 3.92 && song.currentTime() < 18.55 + 3.92) ||
+      (song.currentTime() > 18.65 + 3.92 && song.currentTime() <= 18.85 + 3.92)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
     }
-    if (keyIsPressed == true && key == "j") {
-      if (song.currentTime() >= 18.55+3.92 && song.currentTime() <= 18.65+3.92) {
-        greatscore();
-        greattoken = true;
-        jcolor = great;
-        setTimeout(function() {
-          jcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 18.35+3.92 && song.currentTime() < 18.55+3.92) ||
-        (song.currentTime() > 18.65+3.92 && song.currentTime() <= 18.85+3.92)) {
-        goodscore();
-        trusttoken = true;
-        jcolor = good;
-        setTimeout(function() {
-          jcolor = normal;
-        }, 500);
-      }
-    }
+  }
 
 
-    if (song.currentTime() >= 18.41+3.92 && song.currentTime() <= 18.51+3.92) {
-      dtoken = true;
+  if (song.currentTime() >= 18.41 + 3.92 && song.currentTime() <= 18.51 + 3.92) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 18.91 + 3.92 && song.currentTime() <= 19.01 + 3.92) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.71 + 3.92 && song.currentTime() < 18.91 + 3.92) ||
+      (song.currentTime() > 19.01 + 3.92 && song.currentTime() <= 19.21 + 3.92)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
     }
-    if (keyIsPressed == true && key == "d") {
-      if (song.currentTime() >= 18.91+3.92 && song.currentTime() <= 19.01+3.92) {
-        greatscore();
-        greattoken = true;
-        dcolor = great;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 18.71+3.92 && song.currentTime() < 18.91+3.92) ||
-        (song.currentTime() > 19.01+3.92 && song.currentTime() <= 19.21+3.92)) {
-        goodscore();
-        trusttoken = true;
-        dcolor = good;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      }
-    }
+  }
 
-    if (song.currentTime() >= 18.76+3.92 && song.currentTime() <= 18.86+3.92) {
+  if (song.currentTime() >= 18.76 + 3.92 && song.currentTime() <= 18.86 + 3.92) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 19.26 + 3.92 && song.currentTime() <= 19.36 + 3.92) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.06 + 3.92 && song.currentTime() < 19.26 + 3.92) ||
+      (song.currentTime() > 19.36 + 3.92 && song.currentTime() <= 19.56 + 3.92)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 19.15 + 3.92 && song.currentTime() <= 19.25 + 3.92) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 19.65 + 3.92 && song.currentTime() <= 19.75 + 3.92) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.45 + 3.92 && song.currentTime() < 19.65 + 3.92) ||
+      (song.currentTime() > 19.75 + 3.92 && song.currentTime() <= 19.95 + 3.92)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 17.67 + 5.88 && song.currentTime() <= 17.77 + 5.88) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 18.17 + 5.88 && song.currentTime() <= 18.27 + 5.88) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.97 + 5.88 && song.currentTime() < 18.17 + 5.88) ||
+      (song.currentTime() > 18.27 + 5.88 && song.currentTime() <= 18.47 + 5.88)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 18.05 + 5.88 && song.currentTime() <= 18.15 + 5.88) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 18.55 + 5.88 && song.currentTime() <= 18.65 + 5.88) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.35 + 5.88 && song.currentTime() < 18.55 + 5.88) ||
+      (song.currentTime() > 18.65 + 5.88 && song.currentTime() <= 18.85 + 5.88)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 18.41 + 5.88 && song.currentTime() <= 18.51 + 5.88) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 18.91 + 5.88 && song.currentTime() <= 19.01 + 5.88) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.71 + 5.88 && song.currentTime() < 18.91 + 5.88) ||
+      (song.currentTime() > 19.01 + 5.88 && song.currentTime() <= 19.21 + 5.88)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 18.76 + 5.88 && song.currentTime() <= 18.86 + 5.88) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 19.26 + 5.88 && song.currentTime() <= 19.36 + 5.88) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.06 + 5.88 && song.currentTime() < 19.26 + 5.88) ||
+      (song.currentTime() > 19.36 + 5.88 && song.currentTime() <= 19.56 + 5.88)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 19.15 + 5.88 && song.currentTime() <= 19.25 + 5.88) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 19.65 + 5.88 && song.currentTime() <= 19.75 + 5.88) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.45 + 5.88 && song.currentTime() < 19.65 + 5.88) ||
+      (song.currentTime() > 19.75 + 5.88 && song.currentTime() <= 19.95 + 5.88)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 17.67 + 7.84 && song.currentTime() <= 17.77 + 7.84) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 18.17 + 7.84 && song.currentTime() <= 18.27 + 7.84) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.97 + 7.84 && song.currentTime() < 18.17 + 7.84) ||
+      (song.currentTime() > 18.27 + 7.84 && song.currentTime() <= 18.47 + 7.84)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 18.05 + 7.84 && song.currentTime() <= 18.15 + 7.84) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 18.55 + 7.84 && song.currentTime() <= 18.65 + 7.84) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.35 + 7.84 && song.currentTime() < 18.55 + 7.84) ||
+      (song.currentTime() > 18.65 + 7.84 && song.currentTime() <= 18.85 + 7.84)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 18.41 + 7.84 && song.currentTime() <= 18.51 + 7.84) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 18.91 + 7.84 && song.currentTime() <= 19.01 + 7.84) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.71 + 7.84 && song.currentTime() < 18.91 + 7.84) ||
+      (song.currentTime() > 19.01 + 7.84 && song.currentTime() <= 19.21 + 7.84)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 18.76 + 7.84 && song.currentTime() <= 18.86 + 7.84) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 19.26 + 7.84 && song.currentTime() <= 19.36 + 7.84) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.06 + 7.84 && song.currentTime() < 19.26 + 7.84) ||
+      (song.currentTime() > 19.36 + 7.84 && song.currentTime() <= 19.56 + 7.84)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 19.15 + 7.84 && song.currentTime() <= 19.25 + 7.84) {
+    jtoken = true;
+
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 19.65 + 7.84 && song.currentTime() <= 19.75 + 7.84) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.45 + 7.84 && song.currentTime() < 19.65 + 7.84) ||
+      (song.currentTime() > 19.75 + 7.84 && song.currentTime() <= 19.95 + 7.84)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 15.7 + 11.76 && song.currentTime() <= 15.8 + 11.76) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.2 + 11.76 && song.currentTime() <= 16.3 + 11.76) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.0 + 11.76 && song.currentTime() < 16.2 + 11.76) ||
+      (song.currentTime() > 16.3 + 11.76 && song.currentTime() <= 16.5 + 11.76)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.1 + 11.76 && song.currentTime() <= 16.2 + 11.76) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 16.6 + 11.76 && song.currentTime() <= 16.7 + 11.76) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.4 + 11.76 && song.currentTime() < 16.6 + 11.76) ||
+      (song.currentTime() > 16.7 + 11.76 && song.currentTime() <= 16.9 + 11.76)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 16.43 + 11.76 && song.currentTime() <= 16.53 + 11.76) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.93 + 11.76 && song.currentTime() <= 17.03 + 11.76) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73 + 11.76 && song.currentTime() < 16.93 + 11.76) ||
+      (song.currentTime() > 17.03 + 11.76 && song.currentTime() <= 17.23 + 11.76)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 16.93 + 11.76 && song.currentTime() <= 17.03 + 11.76) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73 + 11.76 && song.currentTime() < 16.93 + 11.76) ||
+      (song.currentTime() > 17.03 + 11.76 && song.currentTime() <= 17.23 + 11.76)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.8 + 11.76 && song.currentTime() <= 16.9 + 11.76) {
+    ftoken = true;
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 17.3 + 11.76 && song.currentTime() <= 17.4 + 11.76) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1 + 11.76 && song.currentTime() < 17.3 + 11.76) ||
+      (song.currentTime() > 17.4 + 11.76 && song.currentTime() <= 17.6 + 11.76)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 17.3 + 11.76 && song.currentTime() <= 17.4 + 11.76) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1 + 11.76 && song.currentTime() < 17.3 + 11.76) ||
+      (song.currentTime() > 17.4 + 11.76 && song.currentTime() <= 17.6 + 11.76)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 17.17 + 11.76 && song.currentTime() <= 17.27 + 11.76) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 17.67 + 11.76 && song.currentTime() <= 17.77 + 11.76) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47 + 11.76 && song.currentTime() < 17.67 + 11.76) ||
+      (song.currentTime() > 17.77 + 11.76 && song.currentTime() <= 17.97 + 11.76)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 17.67 + 11.76 && song.currentTime() <= 17.77 + 11.76) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47 + 11.76 && song.currentTime() < 17.67 + 11.76) ||
+      (song.currentTime() > 17.77 + 11.76 && song.currentTime() <= 17.97 + 11.76)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 15.7 + 13.72 && song.currentTime() <= 15.8 + 13.72) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 16.2 + 13.72 && song.currentTime() <= 16.3 + 13.72) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.0 + 13.72 && song.currentTime() < 16.2 + 13.72) ||
+      (song.currentTime() > 16.3 + 13.72 && song.currentTime() <= 16.5 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.1 + 13.72 && song.currentTime() <= 16.2 + 13.72) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 16.6 + 13.72 && song.currentTime() <= 16.7 + 13.72) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.4 + 13.72 && song.currentTime() < 16.6 + 13.72) ||
+      (song.currentTime() > 16.7 + 13.72 && song.currentTime() <= 16.9 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 16.43 + 13.72 && song.currentTime() <= 16.53 + 13.72) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.93 + 13.72 && song.currentTime() <= 17.03 + 13.72) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73 + 13.72 && song.currentTime() < 16.93 + 13.72) ||
+      (song.currentTime() > 17.03 + 13.72 && song.currentTime() <= 17.23 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 16.93 + 13.72 && song.currentTime() <= 17.03 + 13.72) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73 + 13.72 && song.currentTime() < 16.93 + 13.72) ||
+      (song.currentTime() > 17.03 + 13.72 && song.currentTime() <= 17.23 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.8 + 13.72 && song.currentTime() <= 16.9 + 13.72) {
+    ftoken = true;
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 17.3 + 13.72 && song.currentTime() <= 17.4 + 13.72) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1 + 13.72 && song.currentTime() < 17.3 + 13.72) ||
+      (song.currentTime() > 17.4 + 13.72 && song.currentTime() <= 17.6 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 17.3 + 13.72 && song.currentTime() <= 17.4 + 13.72) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1 + 13.72 && song.currentTime() < 17.3 + 13.72) ||
+      (song.currentTime() > 17.4 + 13.72 && song.currentTime() <= 17.6 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 17.17 + 13.72 && song.currentTime() <= 17.27 + 13.72) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 17.67 + 13.72 && song.currentTime() <= 17.77 + 13.72) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47 + 13.72 && song.currentTime() < 17.67 + 13.72) ||
+      (song.currentTime() > 17.77 + 13.72 && song.currentTime() <= 17.97 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 17.67 + 13.72 && song.currentTime() <= 17.77 + 13.72) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47 + 13.72 && song.currentTime() < 17.67 + 13.72) ||
+      (song.currentTime() > 17.77 + 13.72 && song.currentTime() <= 17.97 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 17.67 + 13.72 && song.currentTime() <= 17.77 + 13.72) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 18.17 + 13.72 && song.currentTime() <= 18.27 + 13.72) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.97 + 13.72 && song.currentTime() < 18.17 + 13.72) ||
+      (song.currentTime() > 18.27 + 13.72 && song.currentTime() <= 18.47 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 18.05 + 13.72 && song.currentTime() <= 18.15 + 13.72) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 18.55 + 13.72 && song.currentTime() <= 18.65 + 13.72) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.35 + 13.72 && song.currentTime() < 18.55 + 13.72) ||
+      (song.currentTime() > 18.65 + 13.72 && song.currentTime() <= 18.85 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 18.41 + 13.72 && song.currentTime() <= 18.51 + 13.72) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 18.91 + 13.72 && song.currentTime() <= 19.01 + 13.72) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.71 + 13.72 && song.currentTime() < 18.91 + 13.72) ||
+      (song.currentTime() > 19.01 + 13.72 && song.currentTime() <= 19.21 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 18.76 + 13.72 && song.currentTime() <= 18.86 + 13.72) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 19.26 + 13.72 && song.currentTime() <= 19.36 + 13.72) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.06 + 13.72 && song.currentTime() < 19.26 + 13.72) ||
+      (song.currentTime() > 19.36 + 13.72 && song.currentTime() <= 19.56 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 19.15 + 13.72 && song.currentTime() <= 19.25 + 13.72) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 19.65 + 13.72 && song.currentTime() <= 19.75 + 13.72) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.45 + 13.72 && song.currentTime() < 19.65 + 13.72) ||
+      (song.currentTime() > 19.75 + 13.72 && song.currentTime() <= 19.95 + 13.72)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 15.7+17.64 && song.currentTime() <= 15.8+17.64) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.2+17.64 && song.currentTime() <= 16.3+17.64) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.0+17.64 && song.currentTime() < 16.2+17.64) ||
+      (song.currentTime() > 16.3+17.64 && song.currentTime() <= 16.5+17.64)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.1+17.64 && song.currentTime() <= 16.2+17.64) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 16.6+17.64 && song.currentTime() <= 16.7+17.64) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.4+17.64 && song.currentTime() < 16.6+17.64) ||
+      (song.currentTime() > 16.7+17.64 && song.currentTime() <= 16.9+17.64)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.43+17.64 && song.currentTime() <= 16.53+17.64) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.93+17.64 && song.currentTime() <= 17.03+17.64) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73+17.64 && song.currentTime() < 16.93+17.64) ||
+      (song.currentTime() > 17.03+17.64 && song.currentTime() <= 17.23+17.64)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.8+17.64 && song.currentTime() <= 16.9+17.64) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 17.3+17.64 && song.currentTime() <= 17.4+17.64) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1+17.64 && song.currentTime() < 17.3+17.64) ||
+      (song.currentTime() > 17.4+17.64 && song.currentTime() <= 17.6+17.64)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 17.17+17.64 && song.currentTime() <= 17.27+17.64) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 17.67+17.64 && song.currentTime() <= 17.77+17.64) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47+17.64 && song.currentTime() < 17.67+17.64) ||
+      (song.currentTime() > 17.77+17.64 && song.currentTime() <= 17.97+17.64)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 15.7+19.6 && song.currentTime() <= 15.8+19.6) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 16.2+19.6 && song.currentTime() <= 16.3+19.6) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.0+19.6 && song.currentTime() < 16.2+19.6) ||
+      (song.currentTime() > 16.3+19.6 && song.currentTime() <= 16.5+19.6)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.1+19.6 && song.currentTime() <= 16.2+19.6) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 16.6+19.6 && song.currentTime() <= 16.7+19.6) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.4+19.6 && song.currentTime() < 16.6+19.6) ||
+      (song.currentTime() > 16.7+19.6 && song.currentTime() <= 16.9+19.6)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 16.43+19.6 && song.currentTime() <= 16.53+19.6) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.93+19.6 && song.currentTime() <= 17.03+19.6) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73+19.6 && song.currentTime() < 16.93+19.6) ||
+      (song.currentTime() > 17.03+19.6 && song.currentTime() <= 17.23+19.6)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 16.93+19.6 && song.currentTime() <= 17.03+19.6) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73+19.6 && song.currentTime() < 16.93+19.6) ||
+      (song.currentTime() > 17.03+19.6 && song.currentTime() <= 17.23+19.6)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.8+19.6 && song.currentTime() <= 16.9+19.6) {
+    ftoken = true;
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 17.3+19.6 && song.currentTime() <= 17.4+19.6) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1+19.6 && song.currentTime() < 17.3+19.6) ||
+      (song.currentTime() > 17.4+19.6 && song.currentTime() <= 17.6+19.6)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 17.3+19.6 && song.currentTime() <= 17.4+19.6) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1+19.6 && song.currentTime() < 17.3+19.6) ||
+      (song.currentTime() > 17.4+19.6 && song.currentTime() <= 17.6+19.6)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 17.17+19.6 && song.currentTime() <= 17.27+19.6) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 17.67+19.6 && song.currentTime() <= 17.77+19.6) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47+19.6 && song.currentTime() < 17.67+19.6) ||
+      (song.currentTime() > 17.77+19.6 && song.currentTime() <= 17.97+19.6)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 17.67+19.6 && song.currentTime() <= 17.77+19.6) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47+19.6 && song.currentTime() < 17.67+19.6) ||
+      (song.currentTime() > 17.77+19.6 && song.currentTime() <= 17.97+19.6)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+
+  if (song.currentTime() >= 15.7+21.57 && song.currentTime() <= 15.8+21.56) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 16.2+21.56 && song.currentTime() <= 16.3+21.56) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.0+21.56 && song.currentTime() < 16.2+21.56) ||
+      (song.currentTime() > 16.3+21.56 && song.currentTime() <= 16.5+21.56)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.1+21.56 && song.currentTime() <= 16.2+21.56) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 16.6+21.56 && song.currentTime() <= 16.7+21.56) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.4+21.56 && song.currentTime() < 16.6+21.56) ||
+      (song.currentTime() > 16.7+21.56 && song.currentTime() <= 16.9+21.56)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 16.43+21.56 && song.currentTime() <= 16.53+21.56) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.93+21.56 && song.currentTime() <= 17.03+21.56) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73+21.56 && song.currentTime() < 16.93+21.56) ||
+      (song.currentTime() > 17.03+21.56 && song.currentTime() <= 17.23+21.56)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 16.93+21.56 && song.currentTime() <= 17.03+21.56) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73+21.56 && song.currentTime() < 16.93+21.56) ||
+      (song.currentTime() > 17.03+21.56 && song.currentTime() <= 17.23+21.56)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.8+21.56 && song.currentTime() <= 16.9+21.56) {
+    ftoken = true;
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 17.3+21.56 && song.currentTime() <= 17.4+21.56) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1+21.56 && song.currentTime() < 17.3+21.56) ||
+      (song.currentTime() > 17.4+21.56 && song.currentTime() <= 17.6+21.56)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 17.3+21.56 && song.currentTime() <= 17.4+21.56) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1+21.56 && song.currentTime() < 17.3+21.56) ||
+      (song.currentTime() > 17.4+21.56 && song.currentTime() <= 17.6+21.56)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 17.17+21.56 && song.currentTime() <= 17.27+21.56) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 17.67+21.56 && song.currentTime() <= 17.77+21.56) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47+21.56 && song.currentTime() < 17.67+21.56) ||
+      (song.currentTime() > 17.77+21.56 && song.currentTime() <= 17.97+21.56)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 17.67+21.56 && song.currentTime() <= 17.77+21.56) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47+21.56 && song.currentTime() < 17.67+21.56) ||
+      (song.currentTime() > 17.77+21.56 && song.currentTime() <= 17.97+21.56)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+
+
+
+  if (song.currentTime() >= 17.67+21.56 && song.currentTime() <= 17.77+21.56) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 18.17+21.56 && song.currentTime() <= 18.27+21.56) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.97+21.56 && song.currentTime() < 18.17+21.56) ||
+      (song.currentTime() > 18.27+21.56 && song.currentTime() <= 18.47+21.56)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 18.05+21.56 && song.currentTime() <= 18.15+21.56) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 18.55+21.56 && song.currentTime() <= 18.65+21.56) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.35+21.56 && song.currentTime() < 18.55+21.56) ||
+      (song.currentTime() > 18.65+21.56 && song.currentTime() <= 18.85+21.56)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 18.41+21.56 && song.currentTime() <= 18.51+21.56) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 18.91+21.56 && song.currentTime() <= 19.01+21.56) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 18.71+21.56 && song.currentTime() < 18.91+21.56) ||
+      (song.currentTime() > 19.01+21.56 && song.currentTime() <= 19.21+21.56)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 18.76+21.56 && song.currentTime() <= 18.86+21.56) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 19.26+21.56 && song.currentTime() <= 19.36+21.56) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.06+21.56 && song.currentTime() < 19.26+21.56) ||
+      (song.currentTime() > 19.36+21.56 && song.currentTime() <= 19.56+21.56)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 19.15+21.56 && song.currentTime() <= 19.25+21.56) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 19.65+21.56 && song.currentTime() <= 19.75+21.56) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 19.45+21.56 && song.currentTime() < 19.65+21.56) ||
+      (song.currentTime() > 19.75+21.56 && song.currentTime() <= 19.95+21.56)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+
+  if (song.currentTime() >= 15.7+25.49 && song.currentTime() <= 15.8+25.49) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.2+25.49 && song.currentTime() <= 16.3+25.49) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.0+25.49 && song.currentTime() < 16.2+25.49) ||
+      (song.currentTime() > 16.3+25.49 && song.currentTime() <= 16.5+25.49)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.1+25.49 && song.currentTime() <= 16.2+25.49) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 16.6+25.49 && song.currentTime() <= 16.7+25.49) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.4+25.49 && song.currentTime() < 16.6+25.49) ||
+      (song.currentTime() > 16.7+25.49 && song.currentTime() <= 16.9+25.49)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.43+25.49 && song.currentTime() <= 16.53+25.49) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.93+25.49 && song.currentTime() <= 17.03+25.49) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73+25.49 && song.currentTime() < 16.93+25.49) ||
+      (song.currentTime() > 17.03+25.49 && song.currentTime() <= 17.23+25.49)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.8+25.49 && song.currentTime() <= 16.9+25.49) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 17.3+25.49 && song.currentTime() <= 17.4+25.49) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1+25.49 && song.currentTime() < 17.3+25.49) ||
+      (song.currentTime() > 17.4+25.49 && song.currentTime() <= 17.6+25.49)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 17.17+25.49 && song.currentTime() <= 17.27+25.49) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 17.67+25.49 && song.currentTime() <= 17.77+25.49) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47+25.49 && song.currentTime() < 17.67+25.49) ||
+      (song.currentTime() > 17.77+25.49 && song.currentTime() <= 17.97+25.49)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 15.7+27.45 && song.currentTime() <= 15.8+27.45) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.2+27.45 && song.currentTime() <= 16.3+27.45) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.0+27.45 && song.currentTime() < 16.2+27.45) ||
+      (song.currentTime() > 16.3+27.45 && song.currentTime() <= 16.5+27.45)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 16.2+27.45 && song.currentTime() <= 16.3+27.45) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.0+27.45 && song.currentTime() < 16.2+27.45) ||
+      (song.currentTime() > 16.3+27.45 && song.currentTime() <= 16.5+27.45)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 16.1+27.45 && song.currentTime() <= 16.2+27.45) {
+    ftoken = true;
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 16.6+27.45 && song.currentTime() <= 16.7+27.45) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.4+27.45 && song.currentTime() < 16.6+27.45) ||
+      (song.currentTime() > 16.7+27.45 && song.currentTime() <= 16.9+27.45)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 16.6+27.45 && song.currentTime() <= 16.7+27.45) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.4+27.45 && song.currentTime() < 16.6+27.45) ||
+      (song.currentTime() > 16.7+27.45 && song.currentTime() <= 16.9+27.45)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 16.43+27.45 && song.currentTime() <= 16.53+27.45) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 16.93+27.45 && song.currentTime() <= 17.03+27.45) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73+27.45 && song.currentTime() < 16.93+27.45) ||
+      (song.currentTime() > 17.03+27.45 && song.currentTime() <= 17.23+27.45)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 16.93+27.45 && song.currentTime() <= 17.03+27.45) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.73+27.45 && song.currentTime() < 16.93+27.45) ||
+      (song.currentTime() > 17.03+27.45 && song.currentTime() <= 17.23+27.45)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 16.8+27.45 && song.currentTime() <= 16.9+27.45) {
+    ftoken = true;
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 17.3+27.45 && song.currentTime() <= 17.4+27.45) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1+27.45 && song.currentTime() < 17.3+27.45) ||
+      (song.currentTime() > 17.4+27.45 && song.currentTime() <= 17.6+27.45)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 17.3+27.45 && song.currentTime() <= 17.4+27.45) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.1+27.45 && song.currentTime() < 17.3+27.45) ||
+      (song.currentTime() > 17.4+27.45 && song.currentTime() <= 17.6+27.45)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 17.17+27.45 && song.currentTime() <= 17.27+27.45) {
+    dtoken = true;
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 17.67+27.45 && song.currentTime() <= 17.77+27.45) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47+27.45 && song.currentTime() < 17.67+27.45) ||
+      (song.currentTime() > 17.77+27.45 && song.currentTime() <= 17.97+27.45)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 17.67+27.45 && song.currentTime() <= 17.77+27.45) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 17.47+27.45 && song.currentTime() < 17.67+27.45) ||
+      (song.currentTime() > 17.77+27.45 && song.currentTime() <= 17.97+27.45)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+
+
+
+
+
+  if (song.currentTime() >= 46.03 && song.currentTime() <= 46.13) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 46.53 && song.currentTime() <= 46.63) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 16.33 && song.currentTime() < 46.53) ||
+      (song.currentTime() > 46.63 && song.currentTime() <= 46.83)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 46.53 && song.currentTime() <= 46.63) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 47.03 && song.currentTime() <= 47.13) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 46.83 && song.currentTime() < 47.03) ||
+      (song.currentTime() > 47.13 && song.currentTime() <= 47.33)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+
+for (let i = 0; i<1.96*4; i+=1.96){
+  if (song.currentTime() >= 47.09+i && song.currentTime() <= 47.19+i) {
+    spacetoken = true;
+  }
+  if (keyIsPressed == true && key == "space") {
+    if (song.currentTime() >= 47.59+i && song.currentTime() <= 47.69+i) {
+      greatscore();
+      greattoken = true;
+      spacecolor = great;
+      setTimeout(function() {
+        spacecolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 47.39+i && song.currentTime() < 47.59+i) ||
+      (song.currentTime() > 47.69+i && song.currentTime() <= 47.89+i)) {
+      goodscore();
+      trusttoken = true;
+      spacecolor = good;
+      setTimeout(function() {
+        spacecolor = normal;
+      }, 500);
+    }
+  }
+}
+
+
+for(let i = 0; i<1.96*4; i+=1.96*2){
+  if (song.currentTime() >= 47.42+i && song.currentTime() <= 47.52+i) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 47.92+i && song.currentTime() <= 48.02+i) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 47.72+i && song.currentTime() < 47.92+i) ||
+      (song.currentTime() > 48.02+i && song.currentTime() <= 48.22+i)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 47.82+i && song.currentTime() <= 47.92+i) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 48.32+i && song.currentTime() <= 48.42+i) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 48.12+i && song.currentTime() < 48.32+i) ||
+      (song.currentTime() > 48.42+i && song.currentTime() <= 48.62+i)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 48.30+i && song.currentTime() <= 48.40+i) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 48.80+i && song.currentTime() <= 48.90+i) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 48.60+i && song.currentTime() < 48.80+i) ||
+      (song.currentTime() > 48.90+i && song.currentTime() <= 50.10+i)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 48.54+i && song.currentTime() <= 48.64+i) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 49.04+i && song.currentTime() <= 49.14+i) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 48.84+i && song.currentTime() < 49.04+i) ||
+      (song.currentTime() > 49.14+i && song.currentTime() <= 49.34+i)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+    if (song.currentTime() >= 48.80+i && song.currentTime() <= 48.90+i) {
       ftoken = true;
     }
     if (keyIsPressed == true && key == "f") {
-      if (song.currentTime() >= 19.26+3.92 && song.currentTime() <= 19.36+3.92) {
+      if (song.currentTime() >= 49.30+i && song.currentTime() <= 49.40+i) {
         greatscore();
         greattoken = true;
         fcolor = great;
         setTimeout(function() {
           fcolor = normal;
         }, 500);
-      } else if ((song.currentTime() >= 19.06+3.92 && song.currentTime() < 19.26+3.92) ||
-        (song.currentTime() > 19.36+3.92 && song.currentTime() <= 19.56+3.92)) {
+      } else if ((song.currentTime() >= 49.10+i && song.currentTime() < 49.30+i) ||
+        (song.currentTime() > 49.40+i && song.currentTime() <= 49.60+i)) {
         goodscore();
         trusttoken = true;
         fcolor = good;
@@ -648,192 +2453,20 @@ function draw() {
       }
     }
 
-    if (song.currentTime() >= 19.15+3.92 && song.currentTime() <= 19.25+3.92) {
-      dtoken = true;
-    }
-    if (keyIsPressed == true && key == "d") {
-      if (song.currentTime() >= 19.65+3.92 && song.currentTime() <= 19.75+3.92) {
-        greatscore();
-        greattoken = true;
-        dcolor = great;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 19.45+3.92 && song.currentTime() < 19.65+3.92) ||
-        (song.currentTime() > 19.75+3.92 && song.currentTime() <= 19.95+3.92)) {
-        goodscore();
-        trusttoken = true;
-        dcolor = good;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      }
-    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    if (song.currentTime() >= 15.7+9.8 && song.currentTime() <= 15.8+9.8) {
-      dtoken = true;
-    }
-    if (keyIsPressed == true && key == "d") {
-      if (song.currentTime() >= 16.2+9.8 && song.currentTime() <= 16.3+9.8) {
-        greatscore();
-        greattoken = true;
-        dcolor = great;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 16.0+9.8 && song.currentTime() < 16.2+9.8) ||
-        (song.currentTime() > 16.3+9.8 && song.currentTime() <= 16.5+9.8)) {
-        goodscore();
-        trusttoken = true;
-        dcolor = good;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      }
-    }
-
-
-    if (song.currentTime() >= 16.1+9.8 && song.currentTime() <= 16.2+9.8) {
-      ftoken = true;
-    }
-    if (keyIsPressed == true && key == "f") {
-      if (song.currentTime() >= 16.6+9.8 && song.currentTime() <= 16.7+9.8) {
-        greatscore();
-        greattoken = true;
-        fcolor = great;
-        setTimeout(function() {
-          fcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 16.4+9.8 && song.currentTime() < 16.6+9.8) ||
-        (song.currentTime() > 16.7+9.8 && song.currentTime() <= 16.9+9.8)) {
-        goodscore();
-        trusttoken = true;
-        fcolor = good;
-        setTimeout(function() {
-          fcolor = normal;
-        }, 500);
-      }
-    }
-
-
-    if (song.currentTime() >= 16.43+9.8 && song.currentTime() <= 16.53+9.8) {
-      dtoken = true;
-    }
-    if (keyIsPressed == true && key == "d") {
-      if (song.currentTime() >= 16.93+9.8 && song.currentTime() <= 17.03+9.8) {
-        greatscore();
-        greattoken = true;
-        dcolor = great;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 16.73+9.8 && song.currentTime() < 16.93+9.8) ||
-        (song.currentTime() > 17.03+9.8 && song.currentTime() <= 17.23+9.8)) {
-        goodscore();
-        trusttoken = true;
-        dcolor = good;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      }
-    }
-
-
-    if (song.currentTime() >= 16.8+9.8 && song.currentTime() <= 16.9+9.8) {
-      ftoken = true;
-    }
-    if (keyIsPressed == true && key == "f") {
-      if (song.currentTime() >= 17.3+9.8 && song.currentTime() <= 17.4+9.8) {
-        greatscore();
-        greattoken = true;
-        fcolor = great;
-        setTimeout(function() {
-          fcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 17.1+9.8 && song.currentTime() < 17.3+9.8) ||
-        (song.currentTime() > 17.4+9.8 && song.currentTime() <= 17.6+9.8)) {
-        goodscore();
-        trusttoken = true;
-        fcolor = good;
-        setTimeout(function() {
-          fcolor = normal;
-        }, 500);
-      }
-    }
-
-
-    if (song.currentTime() >= 17.17+9.8 && song.currentTime() <= 17.27+9.8) {
-      dtoken = true;
-    }
-    if (keyIsPressed == true && key == "d") {
-      if (song.currentTime() >= 17.67+9.8 && song.currentTime() <= 17.77+9.8) {
-        greatscore();
-        greattoken = true;
-        dcolor = great;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 17.47+9.8 && song.currentTime() < 17.67+9.8) ||
-        (song.currentTime() > 17.77+9.8 && song.currentTime() <= 17.97+9.8)) {
-        goodscore();
-        trusttoken = true;
-        dcolor = good;
-        setTimeout(function() {
-          dcolor = normal;
-        }, 500);
-      }
-    }
-
-
-    if (song.currentTime() >= 17.67+5.88 && song.currentTime() <= 17.77+5.88) {
-      ktoken = true;
-    }
-    if (keyIsPressed == true && key == "k") {
-      if (song.currentTime() >= 18.17+5.88 && song.currentTime() <= 18.27+5.88) {
-        greatscore();
-        greattoken = true;
-        kcolor = great;
-        setTimeout(function() {
-          kcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 17.97+5.88 && song.currentTime() < 18.17+5.88) ||
-        (song.currentTime() > 18.27+5.88 && song.currentTime() <= 18.47+5.88)) {
-        goodscore();
-        trusttoken = true;
-        kcolor = good;
-        setTimeout(function() {
-          kcolor = normal;
-        }, 500);
-      }
-    }
-
-    if (song.currentTime() >= 18.05+5.88 && song.currentTime() <= 18.15+5.88) {
+    if (song.currentTime() >= 48.89+i && song.currentTime() <= 48.99+i) {
       jtoken = true;
     }
     if (keyIsPressed == true && key == "j") {
-      if (song.currentTime() >= 18.55+5.88 && song.currentTime() <= 18.65+5.88) {
+      if (song.currentTime() >= 49.39+i && song.currentTime() <= 49.49+i) {
         greatscore();
         greattoken = true;
         jcolor = great;
         setTimeout(function() {
           jcolor = normal;
         }, 500);
-      } else if ((song.currentTime() >= 18.35+5.88 && song.currentTime() < 18.55+5.88) ||
-        (song.currentTime() > 18.65+5.88 && song.currentTime() <= 18.85+5.88)) {
+      } else if ((song.currentTime() >= 49.19+i && song.currentTime() < 49.39+i) ||
+        (song.currentTime() > 49.49+i && song.currentTime() <= 49.69+i)) {
         goodscore();
         trusttoken = true;
         jcolor = good;
@@ -842,74 +2475,150 @@ function draw() {
         }, 500);
       }
     }
+}
 
 
-    if (song.currentTime() >= 18.41+5.88 && song.currentTime() <= 18.51+5.88) {
-      ktoken = true;
-    }
-    if (keyIsPressed == true && key == "k") {
-      if (song.currentTime() >= 18.91+5.88 && song.currentTime() <= 19.01+5.88) {
-        greatscore();
-        greattoken = true;
-        kcolor = great;
-        setTimeout(function() {
-          kcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 18.71+5.88 && song.currentTime() < 18.91+5.88) ||
-        (song.currentTime() > 19.01+5.88 && song.currentTime() <= 19.21+5.88)) {
-        goodscore();
-        trusttoken = true;
-        kcolor = good;
-        setTimeout(function() {
-          kcolor = normal;
-        }, 500);
-      }
-    }
 
-    if (song.currentTime() >= 18.76+5.88 && song.currentTime() <= 18.86+5.88) {
-      jtoken = true;
-    }
-    if (keyIsPressed == true && key == "j") {
-      if (song.currentTime() >= 19.26+5.88 && song.currentTime() <= 19.36+5.88) {
-        greatscore();
-        greattoken = true;
-        jcolor = great;
-        setTimeout(function() {
-          jcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 19.06+5.88 && song.currentTime() < 19.26+5.88) ||
-        (song.currentTime() > 19.36+5.88 && song.currentTime() <= 19.56+5.88)) {
-        goodscore();
-        trusttoken = true;
-        jcolor = good;
-        setTimeout(function() {
-          jcolor = normal;
-        }, 500);
-      }
-    }
 
-    if (song.currentTime() >= 19.15+5.88 && song.currentTime() <= 19.25+5.88) {
-      ktoken = true;
+for(let i = 0; i<1.96*2; i+=1.96*2){
+  if (song.currentTime() >= 49.40+i && song.currentTime() <= 49.50+i) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 49.90+i && song.currentTime() <= 50.00+i) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 49.70+i && song.currentTime() < 49.90+i) ||
+      (song.currentTime() > 50.00+i && song.currentTime() <= 50.20+i)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
     }
-    if (keyIsPressed == true && key == "k") {
-      if (song.currentTime() >= 19.65+5.88 && song.currentTime() <= 19.75+5.88) {
-        greatscore();
-        greattoken = true;
-        kcolor = great;
-        setTimeout(function() {
-          kcolor = normal;
-        }, 500);
-      } else if ((song.currentTime() >= 19.45+5.88 && song.currentTime() < 19.65+5.88) ||
-        (song.currentTime() > 19.75+5.88 && song.currentTime() <= 19.95+5.88)) {
-        goodscore();
-        trusttoken = true;
-        kcolor = good;
-        setTimeout(function() {
-          kcolor = normal;
-        }, 500);
-      }
-    }
+  }
 
+  if (song.currentTime() >= 49.79+i && song.currentTime() <= 49.89+i) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 50.29+i && song.currentTime() <= 50.39+i) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 50.09+i && song.currentTime() < 50.29+i) ||
+      (song.currentTime() > 50.39+i && song.currentTime() <= 50.59+i)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 49.27+i && song.currentTime() <= 49.37+i) {
+    ktoken = true;
+  }
+  if (keyIsPressed == true && key == "k") {
+    if (song.currentTime() >= 50.77+i && song.currentTime() <= 50.87+i) {
+      greatscore();
+      greattoken = true;
+      kcolor = great;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 50.57+i && song.currentTime() < 50.77+i) ||
+      (song.currentTime() > 50.87+i && song.currentTime() <= 51.07+i)) {
+      goodscore();
+      trusttoken = true;
+      kcolor = good;
+      setTimeout(function() {
+        kcolor = normal;
+      }, 500);
+    }
+  }
+
+
+  if (song.currentTime() >= 50.53+i && song.currentTime() <= 50.63+i) {
+    dtoken = true;
+  }
+  if (keyIsPressed == true && key == "d") {
+    if (song.currentTime() >= 51.03+i && song.currentTime() <= 51.13+i) {
+      greatscore();
+      greattoken = true;
+      dcolor = great;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 50.83+i && song.currentTime() < 51.03+i) ||
+      (song.currentTime() > 51.13+i && song.currentTime() <= 51.33+i)) {
+      goodscore();
+      trusttoken = true;
+      dcolor = good;
+      setTimeout(function() {
+        dcolor = normal;
+      }, 500);
+    }
+  }
+
+
+
+  if (song.currentTime() >= 50.75+i && song.currentTime() <= 50.85+i) {
+    jtoken = true;
+  }
+  if (keyIsPressed == true && key == "j") {
+    if (song.currentTime() >= 51.25+i && song.currentTime() <= 51.35+i) {
+      greatscore();
+      greattoken = true;
+      jcolor = great;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 51.05+i && song.currentTime() < 51.25+i) ||
+      (song.currentTime() > 51.35+i && song.currentTime() <= 51.55+i)) {
+      goodscore();
+      trusttoken = true;
+      jcolor = good;
+      setTimeout(function() {
+        jcolor = normal;
+      }, 500);
+    }
+  }
+
+  if (song.currentTime() >= 50.85+i && song.currentTime() <= 50.95+i) {
+    ftoken = true;
+  }
+  if (keyIsPressed == true && key == "f") {
+    if (song.currentTime() >= 51.35+i && song.currentTime() <= 51.45+i) {
+      greatscore();
+      greattoken = true;
+      fcolor = great;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    } else if ((song.currentTime() >= 51.15+i && song.currentTime() < 51.35+i) ||
+      (song.currentTime() >51.45+i && song.currentTime() <= 51.65+i)) {
+      goodscore();
+      trusttoken = true;
+      fcolor = good;
+      setTimeout(function() {
+        fcolor = normal;
+      }, 500);
+    }
+  }
+
+
+}
 
 
 
