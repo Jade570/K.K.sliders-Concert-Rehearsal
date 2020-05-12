@@ -2968,6 +2968,7 @@ if (finishtoken ===true){
   textSize(16);
   fill(255);
   text('kk\'s trust : ' + trust, -windowWidth / 2 + 10, -windowHeight / 2 + 20);
+  text('light up the stage to start\nlighting: up/down arrow', -windowWidth / 2 + 10, -windowHeight / 2 + 50);
 
   //controller
   push();
