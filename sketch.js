@@ -24,6 +24,7 @@ let normal, good, great;
 let dpos, fpos, spacepos, jpos, kpos;
 let ddir, fdir, spacedir, jdir, kdir;
 let dlight, flight, spacelight, jlight, klight;
+let finishtoken;
 
 
 function preload() {
@@ -70,7 +71,7 @@ function setup() {
   let label = createDiv('brightness');
   label.id('tea');
   label.style('color', 'white');
-  label.position(windowWidth - 170, windowHeight / 8 * 6 + 30);
+  label.position(windowWidth/2 +290, windowHeight / 8 * 6 + 30);
   slider = createSlider(0, 50, 0);
 
   slider.position(-5, 50);
@@ -88,22 +89,14 @@ function setup() {
   kcolor = normal;
 
 
-  //colorchange
-  setInterval(colorchange, 1960/8);
+  finishtoken = false;
 }
 
-function colorchange(){
-      lighth=random(360);
-
-}
 
 
 function draw() {
   background(0);
   noStroke();
-
-
-
 
 
   d();
@@ -113,8 +106,7 @@ function draw() {
   k();
 
 
-
-
+//time sequence
   for (let i = 0; i < 8; i += 2) {
     if (song.currentTime() >= 1.2 + i && song.currentTime() <= 1.6 + i) {
       spacetoken = true;
@@ -574,7 +566,6 @@ function draw() {
   }
 
 
-
   if (song.currentTime() >= 17.67 + 3.92 && song.currentTime() <= 17.77 + 3.92) {
     ktoken = true;
   }
@@ -912,7 +903,6 @@ function draw() {
   }
 
 
-
   if (song.currentTime() >= 15.7 + 11.76 && song.currentTime() <= 15.8 + 11.76) {
     dtoken = true;
   }
@@ -957,7 +947,6 @@ function draw() {
       }, 500);
     }
   }
-
 
 
   if (song.currentTime() >= 16.43 + 11.76 && song.currentTime() <= 16.53 + 11.76) {
@@ -1044,7 +1033,6 @@ function draw() {
   }
 
 
-
   if (song.currentTime() >= 17.17 + 11.76 && song.currentTime() <= 17.27 + 11.76) {
     dtoken = true;
     ktoken = true;
@@ -1085,7 +1073,6 @@ function draw() {
       }, 500);
     }
   }
-
 
 
   if (song.currentTime() >= 15.7 + 13.72 && song.currentTime() <= 15.8 + 13.72) {
@@ -1132,7 +1119,6 @@ function draw() {
       }, 500);
     }
   }
-
 
 
   if (song.currentTime() >= 16.43 + 13.72 && song.currentTime() <= 16.53 + 13.72) {
@@ -1219,7 +1205,6 @@ function draw() {
   }
 
 
-
   if (song.currentTime() >= 17.17 + 13.72 && song.currentTime() <= 17.27 + 13.72) {
     dtoken = true;
     ktoken = true;
@@ -1260,7 +1245,6 @@ function draw() {
       }, 500);
     }
   }
-
 
 
   if (song.currentTime() >= 17.67 + 13.72 && song.currentTime() <= 17.77 + 13.72) {
@@ -1490,7 +1474,6 @@ function draw() {
   }
 
 
-
   if (song.currentTime() >= 15.7+19.6 && song.currentTime() <= 15.8+19.6) {
     ktoken = true;
   }
@@ -1535,7 +1518,6 @@ function draw() {
       }, 500);
     }
   }
-
 
 
   if (song.currentTime() >= 16.43+19.6 && song.currentTime() <= 16.53+19.6) {
@@ -1622,7 +1604,6 @@ function draw() {
   }
 
 
-
   if (song.currentTime() >= 17.17+19.6 && song.currentTime() <= 17.27+19.6) {
     dtoken = true;
     ktoken = true;
@@ -1663,7 +1644,6 @@ function draw() {
       }, 500);
     }
   }
-
 
 
 
@@ -1711,7 +1691,6 @@ function draw() {
       }, 500);
     }
   }
-
 
 
   if (song.currentTime() >= 16.43+21.56 && song.currentTime() <= 16.53+21.56) {
@@ -1798,7 +1777,6 @@ function draw() {
   }
 
 
-
   if (song.currentTime() >= 17.17+21.56 && song.currentTime() <= 17.27+21.56) {
     dtoken = true;
     ktoken = true;
@@ -1839,10 +1817,6 @@ function draw() {
       }, 500);
     }
   }
-
-
-
-
 
 
   if (song.currentTime() >= 17.67+21.56 && song.currentTime() <= 17.77+21.56) {
@@ -1955,8 +1929,6 @@ function draw() {
       }, 500);
     }
   }
-
-
 
 
   if (song.currentTime() >= 15.7+25.49 && song.currentTime() <= 15.8+25.49) {
@@ -2074,7 +2046,6 @@ function draw() {
   }
 
 
-
   if (song.currentTime() >= 15.7+27.45 && song.currentTime() <= 15.8+27.45) {
     dtoken = true;
     ktoken = true;
@@ -2159,7 +2130,6 @@ function draw() {
   }
 
 
-
   if (song.currentTime() >= 16.43+27.45 && song.currentTime() <= 16.53+27.45) {
     dtoken = true;
     ktoken = true;
@@ -2200,7 +2170,6 @@ function draw() {
       }, 500);
     }
   }
-
 
 
   if (song.currentTime() >= 16.8+27.45 && song.currentTime() <= 16.9+27.45) {
@@ -2287,8 +2256,6 @@ function draw() {
   }
 
 
-
-
   if (song.currentTime() >= 46.03 && song.currentTime() <= 46.13) {
     jtoken = true;
   }
@@ -2332,7 +2299,6 @@ function draw() {
       }, 500);
     }
   }
-
 
 
 for (let i = 0; i<1.96*5; i+=1.96){
@@ -2502,8 +2468,6 @@ for(let i = 0; i<1.96*4; i+=1.96*2){
 }
 
 
-
-
 for(let i = 0; i<1.96; i+=1.96*2){
   if (song.currentTime() >= 49.42+i && song.currentTime() <= 49.52+i) {
     jtoken = true;
@@ -2647,12 +2611,6 @@ for(let i = 0; i<1.96; i+=1.96*2){
 
 
 
-
-
-
-
-
-
   if (song.currentTime() >= 52.98 && song.currentTime() <= 53.08) {
     jtoken = true;
   }
@@ -2744,8 +2702,6 @@ for(let i = 0; i<1.96; i+=1.96*2){
   }
 
 
-
-
   if (song.currentTime() >= 54.45 && song.currentTime() <= 54.55) {
     ftoken = true;
   }
@@ -2767,7 +2723,6 @@ for(let i = 0; i<1.96; i+=1.96*2){
       }, 500);
     }
   }
-
 
 
 if (song.currentTime() >= 54.70 && song.currentTime() <= 54.80) {
@@ -2793,8 +2748,6 @@ if (keyIsPressed == true && key == "d") {
 }
 
 
-
-
 for (let i = 0; i<1.96*2; i+=(1.96/2)){
   if (song.currentTime() >= 54.95+i && song.currentTime() <= 55.05+i) {
     spacetoken = true;
@@ -2818,8 +2771,6 @@ for (let i = 0; i<1.96*2; i+=(1.96/2)){
     }
   }
 }
-
-
 
 
 for (let i = 0; i<1.96; i+=(1.96/8)){
@@ -2868,12 +2819,6 @@ for (let i = 0; i<1.96; i+=(1.96/8)){
     }
   }
 }
-
-
-
-
-
-
 
 
 if (song.currentTime() >= 60.84 && song.currentTime() <= 60.94) {
@@ -2937,20 +2882,20 @@ if (keyIsPressed == true && key == " ") {
 }
 
 
+////////////////////////////////////////////////////
 
 
 
-
-
+//light
   globalr = map(slidervalue, 0, 50, 10, 128);
   globalg = map(slidervalue, 0, 50, 10, 128);
   globalb = map(slidervalue, 0, 50, 10, 128);
 
-  //light;
+
   ambientLight(globalr/2, globalg/2, globalb/2);
   directionalLight(globalr/2, globalg/2, globalb/2, 0, 0, -1);
   spotLight(globalr*2, globalg*2, globalb*2, 0,-500,-500, 0,1,1);
-//spotLight(256,256,256, 0,-500,-500, 0,1,1);
+
 
 
   //light control
@@ -2981,29 +2926,29 @@ if (keyIsPressed == true && key == " ") {
   fill(100, 100, 100);
   rect(0, 0, windowWidth, windowHeight / 4);
   fill(255, 0, 0);
-  circle(50, windowHeight / 8 - 35, 61);
-  circle(130, windowHeight / 8 - 10, 61);
-  ellipse(255, windowHeight / 8 + 10, 183, 61);
-  circle(380, windowHeight / 8 - 10, 61);
-  circle(455, windowHeight / 8 - 35, 61);
+  circle(windowWidth/2-205, windowHeight / 8 - 35, 61);
+  circle(windowWidth/2-125, windowHeight / 8 - 10, 61);
+  ellipse(windowWidth/2, windowHeight / 8 + 10, 183, 61);
+  circle(windowWidth/2+125, windowHeight / 8 - 10, 61);
+  circle(windowWidth/2+205, windowHeight / 8 - 35, 61);
   fill(255,255,255);
   textAlign(CENTER);
-  text('d', 50, windowHeight / 8 - 35);
-  text('f', 130, windowHeight / 8 - 10);
-  text('space', 255, windowHeight / 8 + 10);
-  text('j', 380, windowHeight / 8 - 10);
-  text('k', 455, windowHeight / 8 - 35);
+  text('d', windowWidth/2-205, windowHeight / 8 - 35);
+  text('f', windowWidth/2-125, windowHeight / 8 - 10);
+  text('space', windowWidth/2, windowHeight / 8 + 10);
+  text('j', windowWidth/2+125, windowHeight / 8 - 10);
+  text('k', windowWidth/2+205, windowHeight / 8 - 35);
   //s(drad);
   fill(dcolor);
-  let scircle = circle(50, windowHeight / 8 - 35, drad);
+  let scircle = circle(windowWidth/2-205, windowHeight / 8 - 35, drad);
   fill(fcolor);
-  let dcircle = circle(130, windowHeight / 8 - 10, frad);
+  let dcircle = circle( windowWidth/2-125, windowHeight / 8 - 10, frad);
   fill(spacecolor);
-  let space = ellipse(255, windowHeight / 8 + 10, spacex, spacey);
+  let space = ellipse(windowWidth/2, windowHeight / 8 + 10, spacex, spacey);
   fill(jcolor);
-  let kcircle = circle(380, windowHeight / 8 - 10, jrad);
+  let kcircle = circle(windowWidth/2+125, windowHeight / 8 - 10, jrad);
   fill(kcolor);
-  let lcircle = circle(455, windowHeight / 8 - 35, krad);
+  let lcircle = circle(windowWidth/2+205, windowHeight / 8 - 35, krad);
   pop();
 
 
