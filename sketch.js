@@ -2900,7 +2900,7 @@ if (finishtoken ===true){
   text("\"Thank you for helping my concert rehearsal. \nYou don't have to come tomorrow!\"\n\nSeems like I have let KK.Slider down...",0,-windowHeight/2+10);
   pop();
   }
-  else if (trust<15000){
+  else if (trust<20000){
     push();
     rectMode(CENTER);
     textAlign(CENTER, TOP);
