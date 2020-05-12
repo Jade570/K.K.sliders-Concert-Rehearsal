@@ -2339,7 +2339,7 @@ for (let i = 0; i<1.96*5; i+=1.96){
   if (song.currentTime() >= 47.09+i && song.currentTime() <= 47.19+i) {
     spacetoken = true;
   }
-  if (keyIsPressed == true && key == "space") {
+  if (keyIsPressed == true && key == " ") {
     if (song.currentTime() >= 47.59+i && song.currentTime() <= 47.69+i) {
       greatscore();
       greattoken = true;
@@ -2917,7 +2917,7 @@ if (keyIsPressed == true && key == "k") {
     }, 500);
   }
 }
-if (keyIsPressed == true && key == "space") {
+if (keyIsPressed == true && key == " ") {
   if (song.currentTime() >= 61.34 && song.currentTime() <= 61.44) {
     greatscore();
     greattoken = true;
