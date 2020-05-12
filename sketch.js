@@ -2891,24 +2891,38 @@ finishtoken = true;
 
 if (finishtoken ===true){
   if(trust<10000){
-  push();
-
-  rectMode(CENTER);
-  textAlign(CENTER, TOP);
-  fill(0,0,0,50)
-  rect(0,-windowHeight/2,windowWidth/2,windowHeight/4);
-  fill(255,255,255);
-  text("\"Thank you for helping my concert rehearsal. \n You don't have to come tomorrow!\"\n\nSeems like I have let KK.Slider down...",0,-windowHeight/2+10);
+    push();
+    rectMode(CENTER);
+    textAlign(CENTER, TOP);
+    fill(0,0,0,50)
+    rect(0,-windowHeight/2,windowWidth/2,windowHeight/4);
+    fill(255,255,255);
+  text("\"Thank you for helping my concert rehearsal. \nYou don't have to come tomorrow!\"\n\nSeems like I have let KK.Slider down...",0,-windowHeight/2+10);
   pop();
   }
+  else if (trust<15000){
+    push();
+    rectMode(CENTER);
+    textAlign(CENTER, TOP);
+    fill(0,0,0,50)
+    rect(0,-windowHeight/2,windowWidth/2,windowHeight/4);
+    fill(255,255,255);
+    text("\"Thank you for helping my concert rehearsal! \nDon't forget to come tomorrow!\"\n\nSeems like KK.Slider is happy!",0,-windowHeight/2+10);
+  pop();
+  }
+  else{
+    push();
+    rectMode(CENTER);
+    textAlign(CENTER, TOP);
+    fill(0,0,0,50)
+    rect(0,-windowHeight/2,windowWidth/2,windowHeight/4);
+    fill(255,255,255);
+    text("\"Thank you so much! \nI hope you can be my manager, I really liked your work today!\"\n\nKK.Slider really liked me! Hurray!",0,-windowHeight/2+10);
+  pop();
+  }
+
 }
-  /*  else if(){
 
-
-    }
-    else{
-
-    }*/
 
 
 
