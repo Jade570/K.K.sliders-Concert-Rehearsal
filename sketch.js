@@ -25,6 +25,7 @@ let dpos, fpos, spacepos, jpos, kpos;
 let ddir, fdir, spacedir, jdir, kdir;
 let lightcolor;
 let lighth, lights, lightb;
+let dlight, flight, spacelight, jlight, klight;
 
 
 function preload() {
@@ -62,6 +63,11 @@ function setup() {
   spacedir = new p5.Vector(0,1,0);
   jdir=new p5.Vector(-1,1,0);
   kdir=new p5.Vector(-0.5,1,0);
+  dlight=color('hsb(0, 100%, 100%)');
+  flight=color('hsb(72, 100%, 100%)');
+  spacelight=color('hsb(144, 100%, 100%)');
+  jlight=color('hsb(216, 100%, 100%)');
+  klight=color('hsb(288, 100%, 100%)');
 
   let label = createDiv('brightness');
   label.id('tea');
@@ -2956,24 +2962,27 @@ if (keyIsPressed == true && key == "space") {
   globalb = map(slidervalue, 0, 50, 10, 128);
 
   //light;
-  ambientLight(globalr, globalg, globalb);
-  directionalLight(globalr, globalg, globalb, 0, 0, -1);
+  ambientLight(globalr/2, globalg/2, globalb/2);
+  directionalLight(globalr/2, globalg/2, globalb/2, 0, 0, -1);
+  spotLight(globalr*2, globalg*2, globalb*2, 0,-500,-500, 0,1,1);
+//spotLight(256,256,256, 0,-500,-500, 0,1,1);
+
 
   //light control
   if(dcolor==good || dcolor == great){
-  spotLight(lightcolor, dpos, ddir, PI/83);
+  spotLight(dlight, dpos, ddir, PI/83);
   }
   if(fcolor==good || fcolor == great){
-  spotLight(lightcolor, fpos, fdir, PI/83);
+  spotLight(flight, fpos, fdir, PI/83);
   }
   if(spacecolor==good || spacecolor == great){
-  spotLight(lightcolor, spacepos, spacedir, PI/83);
+  spotLight(spacelight, spacepos, spacedir, PI/83);
   }
   if(jcolor==good || jcolor == great){
-  spotLight(lightcolor, jpos, jdir, PI/83);
+  spotLight(jlight, jpos, jdir, PI/83);
   }
   if(kcolor==good || kcolor == great){
-  spotLight(lightcolor, kpos, kdir, PI/83);
+  spotLight(klight, kpos, kdir, PI/83);
   }
 
 
