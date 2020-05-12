@@ -22,6 +22,9 @@ let dtoken = false,
 let dcolor, fcolor, spacecolor, jcolor, kcolor;
 let normal, good, great;
 let dpos, fpos, spacepos, jpos, kpos;
+let ddir, fdir, spacedir, jdir, kdir;
+let lightcolor;
+let lighth, lights, lightb;
 
 
 function preload() {
@@ -49,11 +52,16 @@ function setup() {
   krad = 0;
   spacex = 0;
   spacey = 0;
-  dpos= new p5.Vector();
-  fpos= new p5.Vector();
-  spacepos= new p5.Vector();
-  jpos= new p5.Vector();
-  kpos= new p5.Vector();
+  dpos= new p5.Vector(-500,-500,0);
+  fpos= new p5.Vector(-250,-500,0);
+  spacepos= new p5.Vector(0,-500,0);
+  jpos= new p5.Vector(500,-500,0);
+  kpos= new p5.Vector(250,-500,0);
+  ddir=new p5.Vector(1,1,0);
+  fdir=new p5.Vector(0.5,1,0);
+  spacedir = new p5.Vector(0,1,0);
+  jdir=new p5.Vector(-1,1,0);
+  kdir=new p5.Vector(-0.5,1,0);
 
   let label = createDiv('brightness');
   label.id('tea');
@@ -74,9 +82,19 @@ function setup() {
   spacecolor = normal;
   jcolor = normal;
   kcolor = normal;
+
+  lighth=random(360);
+  lights=100;
+  lightb=100;
+  lightcolor = color(lighth, lights, lightb);
+  //colorchange
+  setInterval(colorchange, 1960/8);
 }
 
+function colorchange(){
+      lighth=random(360);
 
+}
 
 
 function draw() {
@@ -84,26 +102,20 @@ function draw() {
   noStroke();
 
 
+
+
+//colorchange();
+  push();
+  colorMode(HSB);
+  lightcolor = color(lighth, lights, lightb);
+  pop();
+//lightcolor=color('hsb(lighth, lights, lightb)');
+
   d();
   f();
   spaceellipse();
   j();
   k();
-
-
-
-//light control
-if(dcolor==good){
-  spotLight(good, );
-}
-if(fcolor==good){
-
-}
-if(spacecolor==good){
-
-}
-
-
 
 
 
@@ -2897,15 +2909,15 @@ if (keyIsPressed == true && key == "d") {
   }
 }
 if (keyIsPressed == true && key == "k") {
-  if (song.currentTime() >= 61.34+i && song.currentTime() <= 61.44+i) {
+  if (song.currentTime() >= 61.34 && song.currentTime() <= 61.44) {
     greatscore();
     greattoken = true;
     kcolor = great;
     setTimeout(function() {
       kcolor = normal;
     }, 500);
-  } else if ((song.currentTime() >= 61.14+i && song.currentTime() < 61.34+i) ||
-    (song.currentTime() > 61.44+i && song.currentTime() <=61.64+i)) {
+  } else if ((song.currentTime() >= 61.14 && song.currentTime() < 61.34) ||
+    (song.currentTime() > 61.44 && song.currentTime() <=61.64)) {
     goodscore();
     trusttoken = true;
     kcolor = good;
@@ -2915,15 +2927,15 @@ if (keyIsPressed == true && key == "k") {
   }
 }
 if (keyIsPressed == true && key == "space") {
-  if (song.currentTime() >= 61.34+i && song.currentTime() <= 61.44+i) {
+  if (song.currentTime() >= 61.34 && song.currentTime() <= 61.44) {
     greatscore();
     greattoken = true;
     spacecolor = great;
     setTimeout(function() {
       spacecolor = normal;
     }, 500);
-  } else if ((song.currentTime() >= 61.14+i && song.currentTime() < 61.34+i) ||
-    (song.currentTime() > 61.44+i && song.currentTime() <= 61.64+i)) {
+  } else if ((song.currentTime() >= 61.14 && song.currentTime() < 61.34) ||
+    (song.currentTime() > 61.44 && song.currentTime() <= 61.64)) {
     goodscore();
     trusttoken = true;
     spacecolor = good;
@@ -2946,6 +2958,24 @@ if (keyIsPressed == true && key == "space") {
   //light;
   ambientLight(globalr, globalg, globalb);
   directionalLight(globalr, globalg, globalb, 0, 0, -1);
+
+  //light control
+  if(dcolor==good || dcolor == great){
+  spotLight(lightcolor, dpos, ddir, PI/83);
+  }
+  if(fcolor==good || fcolor == great){
+  spotLight(lightcolor, fpos, fdir, PI/83);
+  }
+  if(spacecolor==good || spacecolor == great){
+  spotLight(lightcolor, spacepos, spacedir, PI/83);
+  }
+  if(jcolor==good || jcolor == great){
+  spotLight(lightcolor, jpos, jdir, PI/83);
+  }
+  if(kcolor==good || kcolor == great){
+  spotLight(lightcolor, kpos, kdir, PI/83);
+  }
+
 
   textSize(16);
   fill(255);
