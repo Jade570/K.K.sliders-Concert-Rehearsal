@@ -88,8 +88,8 @@ function setup() {
   jcolor = normal;
   kcolor = normal;
 
+finishtoken = false;
 
-  finishtoken = false;
 }
 
 
@@ -2880,6 +2880,41 @@ if (keyIsPressed == true && key == " ") {
     }, 500);
   }
 }
+
+
+
+if (song.currentTime()>=61.73){
+finishtoken = true;
+}
+
+
+
+if (finishtoken ===true){
+  if(trust<10000){
+  push();
+
+  rectMode(CENTER);
+  textAlign(CENTER, TOP);
+  fill(0,0,0,50)
+  rect(0,-windowHeight/2,windowWidth/2,windowHeight/4);
+  fill(255,255,255);
+  text("\"Thank you for helping my concert rehearsal. \n You don't have to come tomorrow!\"\n\nSeems like I have let KK.Slider down...",0,-windowHeight/2+10);
+  pop();
+  }
+}
+  /*  else if(){
+
+
+    }
+    else{
+
+    }*/
+
+
+
+
+//  setTimeout(function(){alert("kk's trust = "+trust);},1000);
+
 
 
 ////////////////////////////////////////////////////
