@@ -23,8 +23,6 @@ let dcolor, fcolor, spacecolor, jcolor, kcolor;
 let normal, good, great;
 let dpos, fpos, spacepos, jpos, kpos;
 let ddir, fdir, spacedir, jdir, kdir;
-let lightcolor;
-let lighth, lights, lightb;
 let dlight, flight, spacelight, jlight, klight;
 
 
@@ -89,10 +87,7 @@ function setup() {
   jcolor = normal;
   kcolor = normal;
 
-  lighth=random(360);
-  lights=100;
-  lightb=100;
-  lightcolor = color(lighth, lights, lightb);
+
   //colorchange
   setInterval(colorchange, 1960/8);
 }
@@ -110,19 +105,12 @@ function draw() {
 
 
 
-//colorchange();
-  push();
-  colorMode(HSB);
-  lightcolor = color(lighth, lights, lightb);
-  pop();
-//lightcolor=color('hsb(lighth, lights, lightb)');
 
   d();
   f();
   spaceellipse();
   j();
   k();
-
 
 
 
@@ -2806,9 +2794,7 @@ if (keyIsPressed == true && key == "d") {
 
 
 
-
-
-
+=
 
 for (let i = 0; i<1.96*2; i+=(1.96/4)){
   if (song.currentTime() >= 54.95+i && song.currentTime() <= 55.05+i) {
