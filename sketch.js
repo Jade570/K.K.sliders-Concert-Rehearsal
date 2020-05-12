@@ -2794,7 +2794,6 @@ if (keyIsPressed == true && key == "d") {
 
 
 
-=
 
 for (let i = 0; i<1.96*2; i+=(1.96/4)){
   if (song.currentTime() >= 54.95+i && song.currentTime() <= 55.05+i) {
