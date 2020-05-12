@@ -2795,11 +2795,11 @@ if (keyIsPressed == true && key == "d") {
 
 
 
-for (let i = 0; i<1.96*2; i+=(1.96/4)){
+for (let i = 0; i<1.96*2; i+=(1.96/2)){
   if (song.currentTime() >= 54.95+i && song.currentTime() <= 55.05+i) {
     spacetoken = true;
   }
-  if (keyIsPressed == true && key == "space") {
+  if (keyIsPressed == true && key == " ") {
     if (song.currentTime() >= 55.45+i && song.currentTime() <= 55.55+i) {
       greatscore();
       greattoken = true;
@@ -2986,6 +2986,13 @@ if (keyIsPressed == true && key == "space") {
   ellipse(255, windowHeight / 8 + 10, 183, 61);
   circle(380, windowHeight / 8 - 10, 61);
   circle(455, windowHeight / 8 - 35, 61);
+  fill(255,255,255);
+  textAlign(CENTER);
+  text('d', 50, windowHeight / 8 - 35);
+  text('f', 130, windowHeight / 8 - 10);
+  text('space', 255, windowHeight / 8 + 10);
+  text('j', 380, windowHeight / 8 - 10);
+  text('k', 455, windowHeight / 8 - 35);
   //s(drad);
   fill(dcolor);
   let scircle = circle(50, windowHeight / 8 - 35, drad);
